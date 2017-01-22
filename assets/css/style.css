@@ -244,3 +244,90 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 640px) {
+  #logo{
+    width: 100%;
+  }
+  nav{
+    float: none;
+    margin-top: 0px;
+  }
+  nav a{
+    width: 30%;
+    height: 40px;
+    text-align: center;
+    line-height: 41px;
+  }
+    #masthead{
+    position: static;
+  }
+  #main-container{
+    padding-top: 0px;
+  }
+  .container{
+    max-width: 640px;
+  }
+  .main-section{
+    width: 95%;
+    max-width: 728px;
+    margin-left: 14px;
+  }
+  .auth-image{
+    width: 545px;
+  }
+  .sidebar{
+    float: left;
+    max-width: 95%;
+    margin-left: 14px;
+  }
+  .work{
+    width: 545px;
+  }
+}
+
+@media screen and (min-width: 641px ) and (max-width: 768px) {
+  .container{
+    margin-left: 20px;
+    max-width: 728px;
+  }
+  .main-section{
+    width: 100%;
+    max-width: 728px;
+  }
+  #masthead{
+    position: static;
+  }
+  #main-container{
+    padding-top: 0px;
+  }
+  .sidebar{
+    float: left;
+    max-width: 728px;
+  }
+  .auth-image{
+    width: 300px;
+  }
+  .work{
+    width: 313px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 980px) {
+  .main-section{
+    width: 60%;
+  }
+  .container{
+    max-width: 800px;
+  }
+  .auth-image{
+    width: 418px;
+    margin-bottom: 10px;
+  }
+  .work{
+    width: 416px;
+  }
+  body{
+    background-color: blue;
+  }
+}
